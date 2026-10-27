@@ -1,0 +1,36 @@
+# Saída do Cargo (binários, objetos intermediários, cache incremental)
+target/
+**/*.rs.bk
+
+# Binários e símbolos gerados por rustc direto, fora do Cargo
+*.exe
+*.pdb
+*.o
+*.rlib
+*.rmeta
+*.dll
+*.so
+*.dylib
+
+# Caches de ferramentas
+.cargo/
+.rustup/
+.cache/
+
+# Logs
+*.log
+
+# Variáveis de ambiente locais
+.env
+.env.*
+
+# Relatório do verificador
+.verificacao.json
+
+# Arquivos de sistema e de editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp

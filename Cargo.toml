@@ -1,0 +1,215 @@
+# Cargo.toml da CodeNomad Academy: 50 sources de Rust, um binário por arquivo.
+# Nenhuma dependência. Cada source também compila sozinha com rustc, sem Cargo.
+# Uso: cargo run --release --bin <nome_sem_numero> -- --demo
+
+[package]
+name = "codenomad-rust-sources"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.70"
+description = "50 programas de Rust, um por arquivo, só biblioteca padrão. Um projeto da CodeNomad Academy (codenomad.org)."
+license = "MIT"
+publish = false
+autobins = false
+
+[dependencies]
+
+[[bin]]
+name = "calculadora_juros_compostos"
+path = "sources/01_calculadora_juros_compostos.rs"
+
+[[bin]]
+name = "simulador_financiamento"
+path = "sources/02_simulador_financiamento.rs"
+
+[[bin]]
+name = "calculadora_imc"
+path = "sources/03_calculadora_imc.rs"
+
+[[bin]]
+name = "conversor_unidades"
+path = "sources/04_conversor_unidades.rs"
+
+[[bin]]
+name = "conversor_moedas"
+path = "sources/05_conversor_moedas.rs"
+
+[[bin]]
+name = "calculadora_troco"
+path = "sources/06_calculadora_troco.rs"
+
+[[bin]]
+name = "calculadora_orcamento"
+path = "sources/07_calculadora_orcamento.rs"
+
+[[bin]]
+name = "calculadora_notas"
+path = "sources/08_calculadora_notas.rs"
+
+[[bin]]
+name = "calculadora_datas"
+path = "sources/09_calculadora_datas.rs"
+
+[[bin]]
+name = "calculadora_geometria"
+path = "sources/10_calculadora_geometria.rs"
+
+[[bin]]
+name = "validador_cpf_cnpj"
+path = "sources/11_validador_cpf_cnpj.rs"
+
+[[bin]]
+name = "validador_email_senha"
+path = "sources/12_validador_email_senha.rs"
+
+[[bin]]
+name = "gerador_senhas"
+path = "sources/13_gerador_senhas.rs"
+
+[[bin]]
+name = "contador_palavras"
+path = "sources/14_contador_palavras.rs"
+
+[[bin]]
+name = "cifra_cesar_vigenere"
+path = "sources/15_cifra_cesar_vigenere.rs"
+
+[[bin]]
+name = "palindromo_anagrama"
+path = "sources/16_palindromo_anagrama.rs"
+
+[[bin]]
+name = "conversor_texto"
+path = "sources/17_conversor_texto.rs"
+
+[[bin]]
+name = "numeros_romanos"
+path = "sources/18_numeros_romanos.rs"
+
+[[bin]]
+name = "conversor_bases"
+path = "sources/19_conversor_bases.rs"
+
+[[bin]]
+name = "gerador_lorem"
+path = "sources/20_gerador_lorem.rs"
+
+[[bin]]
+name = "ordenacao_visual"
+path = "sources/21_ordenacao_visual.rs"
+
+[[bin]]
+name = "busca_binaria"
+path = "sources/22_busca_binaria.rs"
+
+[[bin]]
+name = "pilha_fila"
+path = "sources/23_pilha_fila.rs"
+
+[[bin]]
+name = "lista_ligada"
+path = "sources/24_lista_ligada.rs"
+
+[[bin]]
+name = "fila_prioridade"
+path = "sources/25_fila_prioridade.rs"
+
+[[bin]]
+name = "fibonacci_primos"
+path = "sources/26_fibonacci_primos.rs"
+
+[[bin]]
+name = "calculadora_expressoes"
+path = "sources/27_calculadora_expressoes.rs"
+
+[[bin]]
+name = "matriz_operacoes"
+path = "sources/28_matriz_operacoes.rs"
+
+[[bin]]
+name = "estatistica_basica"
+path = "sources/29_estatistica_basica.rs"
+
+[[bin]]
+name = "grafo_bfs_dfs"
+path = "sources/30_grafo_bfs_dfs.rs"
+
+[[bin]]
+name = "lista_tarefas"
+path = "sources/31_lista_tarefas.rs"
+
+[[bin]]
+name = "agenda_contatos"
+path = "sources/32_agenda_contatos.rs"
+
+[[bin]]
+name = "renomeador_lote"
+path = "sources/33_renomeador_lote.rs"
+
+[[bin]]
+name = "organizador_pastas"
+path = "sources/34_organizador_pastas.rs"
+
+[[bin]]
+name = "duplicados_hash"
+path = "sources/35_duplicados_hash.rs"
+
+[[bin]]
+name = "relatorio_csv"
+path = "sources/36_relatorio_csv.rs"
+
+[[bin]]
+name = "json_formatador"
+path = "sources/37_json_formatador.rs"
+
+[[bin]]
+name = "gerador_markdown"
+path = "sources/38_gerador_markdown.rs"
+
+[[bin]]
+name = "diario_habitos"
+path = "sources/39_diario_habitos.rs"
+
+[[bin]]
+name = "backup_pasta"
+path = "sources/40_backup_pasta.rs"
+
+[[bin]]
+name = "cliente_http"
+path = "sources/41_cliente_http.rs"
+
+[[bin]]
+name = "servidor_http_minimo"
+path = "sources/42_servidor_http_minimo.rs"
+
+[[bin]]
+name = "info_sistema"
+path = "sources/43_info_sistema.rs"
+
+[[bin]]
+name = "cronometro_pomodoro"
+path = "sources/44_cronometro_pomodoro.rs"
+
+[[bin]]
+name = "monitor_arquivos"
+path = "sources/45_monitor_arquivos.rs"
+
+[[bin]]
+name = "jogo_forca"
+path = "sources/46_jogo_forca.rs"
+
+[[bin]]
+name = "jogo_velha"
+path = "sources/47_jogo_velha.rs"
+
+[[bin]]
+name = "adivinhe_numero"
+path = "sources/48_adivinhe_numero.rs"
+
+[[bin]]
+name = "pedra_papel_tesoura"
+path = "sources/49_pedra_papel_tesoura.rs"
+
+[[bin]]
+name = "quiz_perguntas"
+path = "sources/50_quiz_perguntas.rs"
